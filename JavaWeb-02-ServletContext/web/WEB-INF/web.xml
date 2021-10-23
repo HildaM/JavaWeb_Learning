@@ -4,30 +4,28 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <!--  注册Servlet  -->
+    
     <servlet>
         <servlet-name>hello</servlet-name>
         <servlet-class>com.quan.servlet.HelloServlet</servlet-class>
+<!--        <init-param>-->
+<!--            <param-name></param-name>-->
+<!--            <param-value></param-value>-->
+<!--        </init-param>-->
     </servlet>
-
-    <!--  Servlet的请求路径  -->
-    <!--  localhost:8080/s1/hello/helloWorld  -->
     <servlet-mapping>
         <servlet-name>hello</servlet-name>
-        <url-pattern>/hello/*</url-pattern>
+        <url-pattern>/hello</url-pattern>
     </servlet-mapping>
-
-
-
-    <!--  404 注册  -->
+    
+    
     <servlet>
-        <servlet-name>Error</servlet-name>
-        <servlet-class>com.quan.servlet.ErrorServlet</servlet-class>
+        <servlet-name>get</servlet-name>
+        <servlet-class>com.quan.servlet.GetServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Error</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <servlet-name>get</servlet-name>
+        <url-pattern>/get</url-pattern>
     </servlet-mapping>
-
-
+    
 </web-app>
