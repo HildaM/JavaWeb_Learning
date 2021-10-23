@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+    <!-- 配置一些web应用初始化参数  -->
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://localhost:3306/mybatis</param-value>
+    </context-param>
+    
+    
     
     <servlet>
         <servlet-name>hello</servlet-name>
@@ -26,6 +33,36 @@
     <servlet-mapping>
         <servlet-name>get</servlet-name>
         <url-pattern>/get</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>gp</servlet-name>
+        <servlet-class>com.quan.servlet.ServletDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>gp</servlet-name>
+        <url-pattern>/gp</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>dispathcer</servlet-name>
+        <servlet-class>com.quan.servlet.requestDispatching</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispathcer</servlet-name>
+        <url-pattern>/dispatcher</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>prop</servlet-name>
+        <servlet-class>com.quan.servlet.PropertiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>prop</servlet-name>
+        <url-pattern>/prop</url-pattern>
     </servlet-mapping>
     
 </web-app>
