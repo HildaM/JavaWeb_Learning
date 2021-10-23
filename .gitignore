@@ -1,0 +1,3 @@
+# 项目排除路径
+/JavaWeb-01-HelloServlet/target/
+/out/
