@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="JavaWeb-04-HttpResponce-ImageServlet" />
         <module name="JavaWeb-01-HelloServlet" />
+        <module name="JavaWeb-03-HttpResponce-Download" />
         <module name="JavaWeb-02-ServletContext" />
       </profile>
     </annotationProcessing>
