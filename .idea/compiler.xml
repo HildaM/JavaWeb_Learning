@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaWeb-03-HttpResponce-RedirectServlet" />
+        <module name="JavaWeb-04-Request" />
         <module name="JavaWeb-01-HelloServlet" />
         <module name="JavaWeb-03-HttpResponce-Download" />
         <module name="JavaWeb-02-ServletContext" />
         <module name="JavaWeb-03-HttpResponce-ImageServlet" />
+        <module name="JavaWeb-05-Cookie" />
       </profile>
     </annotationProcessing>
   </component>
