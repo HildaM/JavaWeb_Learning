@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWeb-03-HttpResponce-RedirectServlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWeb_03_HttpResponce_RedirectServlet_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaWeb-03-HttpResponce-RedirectServlet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb-03-HttpResponce-RedirectServlet" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -12,7 +12,8 @@
         <module>JavaWeb-01-HelloServlet</module>
         <module>JavaWeb-02-ServletContext</module>
         <module>JavaWeb-03-HttpResponce-Download</module>
-        <module>JavaWeb-04-HttpResponce-ImageServlet</module>
+        <module>JavaWeb-03-HttpResponce-ImageServlet</module>
+        <module>JavaWeb-03-HttpResponce-RedirectServlet</module>
     </modules>
 
     <properties>
@@ -28,6 +29,13 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.3</version>
         </dependency>
 
     </dependencies>
