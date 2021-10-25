@@ -5,29 +5,29 @@
          version="4.0">
 
     <!--  注册Servlet  -->
-    <servlet>
-        <servlet-name>hello</servlet-name>
-        <servlet-class>com.quan.servlet.HelloServlet</servlet-class>
-    </servlet>
+    <com.quan.servlet>
+        <com.quan.servlet-name>hello</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.HelloServlet</com.quan.servlet-class>
+    </com.quan.servlet>
 
     <!--  Servlet的请求路径  -->
     <!--  localhost:8080/s1/hello/helloWorld  -->
-    <servlet-mapping>
-        <servlet-name>hello</servlet-name>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>hello</com.quan.servlet-name>
         <url-pattern>/hello/*</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
 
 
 
     <!--  404 注册  -->
-    <servlet>
-        <servlet-name>Error</servlet-name>
-        <servlet-class>com.quan.servlet.ErrorServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Error</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>Error</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.ErrorServlet</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>Error</com.quan.servlet-name>
         <url-pattern>/*</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
 
 
 </web-app>

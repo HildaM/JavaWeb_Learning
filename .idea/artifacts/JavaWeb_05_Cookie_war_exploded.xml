@@ -5,7 +5,10 @@
       <element id="javaee-facet-resources" facet="JavaWeb-05-Cookie/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="JavaWeb-05-Cookie" />
+          <element id="module-output" name="JavaWeb-05-CookieAndSession" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.3" />
         </element>
       </element>
     </root>

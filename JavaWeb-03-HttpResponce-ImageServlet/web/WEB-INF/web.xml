@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     
-    <servlet>
-        <servlet-name>image</servlet-name>
-        <servlet-class>com.quan.servlet.ImageServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>image</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>image</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.ImageServlet</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>image</com.quan.servlet-name>
         <url-pattern>/image</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
 </web-app>

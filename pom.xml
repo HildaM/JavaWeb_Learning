@@ -15,7 +15,7 @@
         <module>JavaWeb-03-HttpResponce-ImageServlet</module>
         <module>JavaWeb-03-HttpResponce-RedirectServlet</module>
         <module>JavaWeb-04-Request</module>
-        <module>JavaWeb-05-Cookie</module>
+        <module>JavaWeb-05-Cookie_And_Session</module>
     </modules>
 
     <properties>
@@ -25,7 +25,7 @@
 
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+        <!-- https://mvnrepository.com/artifact/javax.com.quan.servlet/javax.com.quan.servlet-api -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -33,7 +33,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+        <!-- https://mvnrepository.com/artifact/javax.com.quan.servlet.jsp/javax.com.quan.servlet.jsp-api -->
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>

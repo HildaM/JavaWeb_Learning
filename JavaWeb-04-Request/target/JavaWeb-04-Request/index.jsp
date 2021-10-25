@@ -25,6 +25,7 @@
             <input type="checkbox" name="hobbies" value="谈心">谈心
             <input type="checkbox" name="hobbies" value="郊游">郊游
             <br>
+
             <input type="submit">
         </form>
     </div>

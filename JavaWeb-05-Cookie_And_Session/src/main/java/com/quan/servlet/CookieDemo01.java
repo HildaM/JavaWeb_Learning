@@ -27,7 +27,7 @@ public class CookieDemo01 extends HttpServlet {
         // 服务器告诉你到来的时间，将这个时间封装为一个 Cookie（信件）
         // Cookie，服务器从客户端获取
         Cookie[] cookies = req.getCookies();   // 返回数组，说明cookie可能存在多个
-            // 判断cookie是否为空
+        // 判断cookie是否为空
         if (cookies != null) {
             // 如果存在cookie
             out.write("上一次访问时间是：");

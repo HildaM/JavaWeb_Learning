@@ -4,42 +4,42 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     
-    <servlet>
-        <servlet-name>redirect</servlet-name>
-        <servlet-class>com.quan.servlet.RedirectServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>redirect</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>redirect</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.RedirectServlet</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>redirect</com.quan.servlet-name>
         <url-pattern>/redirect</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
     
-    <servlet>
-        <servlet-name>image</servlet-name>
-        <servlet-class>com.quan.servlet.FileServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>image</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>image</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.FileServlet</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>image</com.quan.servlet-name>
         <url-pattern>/image</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
     
-    <servlet>
-        <servlet-name>randomNum</servlet-name>
-        <servlet-class>com.quan.servlet.ImageServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>randomNum</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>randomNum</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.ImageServlet</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>randomNum</com.quan.servlet-name>
         <url-pattern>/randomNum</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
     
-    <servlet>
-        <servlet-name>request</servlet-name>
-        <servlet-class>com.quan.servlet.RequestTest</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>request</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>request</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.RequestTest</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>request</com.quan.servlet-name>
         <url-pattern>/login</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
 </web-app>

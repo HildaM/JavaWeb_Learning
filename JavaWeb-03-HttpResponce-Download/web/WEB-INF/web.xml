@@ -5,13 +5,13 @@
          version="4.0">
 
 
-    <servlet>
-        <servlet-name>fileDown</servlet-name>
-        <servlet-class>com.quan.servlet.FileServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>fileDown</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>fileDown</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.FileServlet</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>fileDown</com.quan.servlet-name>
         <url-pattern>/fileDown</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
 </web-app>

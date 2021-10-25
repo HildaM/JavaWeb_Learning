@@ -12,57 +12,57 @@
     
     
     
-    <servlet>
-        <servlet-name>hello</servlet-name>
-        <servlet-class>com.quan.servlet.HelloServlet</servlet-class>
+    <com.quan.servlet>
+        <com.quan.servlet-name>hello</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.HelloServlet</com.quan.servlet-class>
 <!--        <init-param>-->
 <!--            <param-name></param-name>-->
 <!--            <param-value></param-value>-->
 <!--        </init-param>-->
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>hello</servlet-name>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>hello</com.quan.servlet-name>
         <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
     
-    <servlet>
-        <servlet-name>get</servlet-name>
-        <servlet-class>com.quan.servlet.GetServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>get</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>get</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.GetServlet</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>get</com.quan.servlet-name>
         <url-pattern>/get</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
     
-    <servlet>
-        <servlet-name>gp</servlet-name>
-        <servlet-class>com.quan.servlet.ServletDemo03</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>gp</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>gp</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.ServletDemo03</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>gp</com.quan.servlet-name>
         <url-pattern>/gp</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
     
-    <servlet>
-        <servlet-name>dispathcer</servlet-name>
-        <servlet-class>com.quan.servlet.requestDispatching</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>dispathcer</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>dispathcer</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.requestDispatching</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>dispathcer</com.quan.servlet-name>
         <url-pattern>/dispatcher</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
     
-    <servlet>
-        <servlet-name>prop</servlet-name>
-        <servlet-class>com.quan.servlet.PropertiesServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>prop</servlet-name>
+    <com.quan.servlet>
+        <com.quan.servlet-name>prop</com.quan.servlet-name>
+        <com.quan.servlet-class>com.quan.com.quan.servlet.PropertiesServlet</com.quan.servlet-class>
+    </com.quan.servlet>
+    <com.quan.servlet-mapping>
+        <com.quan.servlet-name>prop</com.quan.servlet-name>
         <url-pattern>/prop</url-pattern>
-    </servlet-mapping>
+    </com.quan.servlet-mapping>
     
 </web-app>
