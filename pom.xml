@@ -17,6 +17,7 @@
         <module>JavaWeb-04-Request</module>
         <module>JavaWeb-05-Cookie_And_Session</module>
         <module>JavaWeb-06-Filter</module>
+        <module>JavaWeb-06-FilterApplication</module>
     </modules>
 
     <properties>
