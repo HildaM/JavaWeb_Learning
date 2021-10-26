@@ -27,8 +27,8 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>javax.com.quan.servlet</groupId>
-      <artifactId>javax.com.quan.servlet-api</artifactId>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
       <scope>compile</scope>
     </dependency>

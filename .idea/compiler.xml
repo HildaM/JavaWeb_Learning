@@ -10,6 +10,7 @@
         <module name="JavaWeb-04-Request" />
         <module name="JavaWeb-01-HelloServlet" />
         <module name="JavaWeb-03-HttpResponce-Download" />
+        <module name="JavaWeb-06-Filter" />
         <module name="JavaWeb-05-Cookie_And_Session" />
         <module name="JavaWeb-02-ServletContext" />
         <module name="JavaWeb-03-HttpResponce-ImageServlet" />
